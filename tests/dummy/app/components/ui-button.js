@@ -1,8 +1,6 @@
 import { Styled, group } from 'ember-cli-ui-components';
 import Component from '@ember/component';
 
-console.log('>>Styled', Styled)
-
 export default Component.extend(Styled, {
 
   tagName: 'button',
