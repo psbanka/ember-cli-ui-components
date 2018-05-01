@@ -1,7 +1,6 @@
-<h2 id="title">Example component</h2>
+<h1 id="title">Example styled components</h1>
 
-{{outlet}}
-
+<h2 class="pt-4">button component</h2>
 {{#ui-button style='red shadow'}}
 <p>Red button</p>
 {{/ui-button}}
@@ -9,3 +8,13 @@
 {{#ui-button}}
 <p>Normal button</p>
 {{/ui-button}}
+
+<h2 class="pt-4">card component</h2>
+
+{{#fui-card title='Hello First Card' style="shadow topGreen"}}
+  <p>Here is some content</p>
+{{/fui-card}}
+
+{{#fui-card title='Second card' style="topPurple"}}
+  <p>Here is some other content</p>
+{{/fui-card}}

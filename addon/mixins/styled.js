@@ -30,7 +30,6 @@ export default Mixin.create({
   init() {
     this._super(...arguments);
 
-    console.log('init running')
     // HACK for training :)
     this.get('uiComponents').add(this._debugContainerKey);
 
@@ -120,8 +119,6 @@ export default Mixin.create({
         assert(`Styled: You defined two styles named '${key}' on '${this._debugContainerKey}'. Stylenames must be unique across all groups.`, allStyles[key] === undefined);
       });
 
-      console.log('>> allStyles', allStyles)
-      console.log('>> newStyle', newStyle)
       return assign({}, allStyles, newStyle);
     }, {});
   },
