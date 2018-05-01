@@ -39,4 +39,5 @@ Consume it like this:
 {{/ui-button}}
 ```
 
+![screenshot](https://github.com/psbanka/ember-cli-ui-components/raw/master/example.png)
 Developed by the nice folks at Ember Map
